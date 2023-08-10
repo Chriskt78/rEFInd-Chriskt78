@@ -5,7 +5,7 @@ Windows-RetrogamingOS multiboot installation package (rEFInd)
 
 Check whether your Windows is in UEFI or BIOS mode:
 - Win+R keys
-- Type "msinfo32", press Enter
+- Type ``msinfo32``, press Enter
 - on the right-hand side of the System Information screen, look for the BIOS mode
 - if its value is UEFI, go to the Configure UEFI section
 - if its value is BIOS, you need to convert your Windows disk from MBR to GPT
@@ -14,13 +14,13 @@ How to convert your disk from MBR to GPT :
 - Locate the disk number :
 	- Right-click on the Windows button
 	- Select Disk Manager
-	- Find your hard disk containing Windows (C:) and note the disk number (later noted as <disknumber>, to be replaced by the value noted here).
+	- Find your hard disk containing Windows (C:) and note the disk number (later noted as ``<disknumber>``, to be replaced by the value noted here).
 - Convert MBR disk to GPT :
 	- Click on the Windows button
-	- Type "cmd" then Enter
+	- Type ``cmd`` then Enter
 	- Right-click, run as administrator
-	- type "mbr2gpt /validate /disk:<disknumber> /allowFullOS" then Enter
-	- if no error occurs, type "mbr2gpt /convert /disk:<disknumber> /allowFullOS" then Enter
+	- type ``mbr2gpt /validate /disk:<disknumber> /allowFullOS`` then Enter
+	- if no error occurs, type ``mbr2gpt /convert /disk:<disknumber> /allowFullOS`` then Enter
 
 Configure UEFI : 
 - Make sure BIOS mode is set to UEFI
