@@ -1,1 +1,2 @@
-v1 - 2023-08-08 - Initial release
+2023-08-08 - v1 
+- Initial release
