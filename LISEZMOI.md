@@ -1,5 +1,6 @@
 # rEFInd-Chriskt78
 Paquet pour installer un multiboot Windows-RetrogamingOS (rEFInd)\
+Basé sur https://www.rodsbooks.com/refind \
 Thème basé sur https://github.com/PillTime/rEFInd-minimal-dark \
 Packagé & customisé par Christ78
 
