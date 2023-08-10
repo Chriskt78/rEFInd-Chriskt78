@@ -39,7 +39,7 @@ rd /s /q %drv%\EFI\refind
 :skipDeletePreviousInstall
 rem Copying Refind 0.14.0.2 to EFI partition
 echo - Copying Refind 0.14.0.2 to EFI partition
-xcopy /e /q /y %~dp0refind %drv%\EFI\refind\
+xcopy /e /q /y %~dp0refind-0.14.0.2 %drv%\EFI\refind\
 
 rem Copying Refind Themes to EFI partition
 echo - Copying Refind Themes to EFI partition
