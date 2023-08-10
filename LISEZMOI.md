@@ -26,13 +26,13 @@ Packagé & customisé par Christ78
 - Désactiver Secure Boot
 - Désactiver Compatibility Support Module (CSM)
 
-4) Installer rEFInd :
+4) Installer rEFInd-Chriskt78 :
 - Décompresser, aller dans le dossier décompressé
 - Pour installer, faites un clic droit sur install.bat, exécutez en tant qu'administrateur
 - Vérifiez si vous n'avez pas de messages d'erreurs, et que les copies de fichiers ne donnent pas 0 fichier copié
 - Redémarrez et vérifiez que rEFIind démarre et démarre sur votre distribution retrogaming, Windows ou tout autre système. Vous pouvez utiliser les flèches gauche/droite/entrée, la souris et l'écran tactile pour faire votre choix (mais pas le touchpad).
 
-5) Pour désinstaller rEFInd :
+5) Pour désinstaller rEFInd-Chriskt78 :
 - Décompressez, allez dans le dossier décompressé.
 - Faites un clic droit sur uninstall.bat, exécutez en tant qu'administrateur.
 - Vérifiez que vous n'avez pas de messages d'erreur
