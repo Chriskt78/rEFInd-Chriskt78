@@ -1,7 +1,6 @@
 # rEFInd-Chriskt78
-Packagé & customisé par Christ78
-
 Paquet pour installer un multiboot Windows-RetrogamingOS (rEFInd)
+Packagé & customisé par Christ78
 
 1) Vérifier si votre Windows est en mode UEFI ou BIOS :
 - Touches Win+R
