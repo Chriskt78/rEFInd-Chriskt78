@@ -1,14 +1,14 @@
 # rEFInd-Chriskt78
-Paquet pour installer un multiboot Windows-RetrogamingOS (rEFInd)
-Thème basé sur https://github.com/PillTime/rEFInd-minimal-dark
+Paquet pour installer un multiboot Windows-RetrogamingOS (rEFInd)\
+Thème basé sur https://github.com/PillTime/rEFInd-minimal-dark \
 Packagé & customisé par Christ78
 
 1) Vérifier si votre Windows est en mode UEFI ou BIOS :
 - Touches Win+R
 - Tapez ``msinfo32`` puis appuyez sur Entrée
 - sur la droite de l'écran Informations Système, recherchez le mode BIOS
-- si sa valeur est UEFI, passez à la section Configurez UEFI
-- si sa valeur est BIOS, vous devez convertir votre disque Windows de MBR à GPT
+- si sa valeur est UEFI, passez à la section Configurez UEFI (3)
+- si sa valeur est BIOS, vous devez convertir votre disque Windows de MBR à GPT (2)
 
 2) Comment convertir votre disque de MBR à GPT :
 - Localisez le numéro du disque :
