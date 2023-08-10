@@ -9,7 +9,7 @@ Packaged & customized by Christ78
 - Type ``msinfo32``, press Enter
 - on the right-hand side of the System Information screen, look for the BIOS mode
 - if its value is UEFI, go to the Configure UEFI section (3)
-- if its value is BIOS, you need to convert your Windows disk from MBR to GPT (2)
+- if its value is herited, you need to convert your Windows disk from MBR to GPT (2)
 
 2) How to convert your disk from MBR to GPT :
 - Locate the disk number :
