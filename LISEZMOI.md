@@ -5,7 +5,7 @@ Paquet pour installer un multiboot Windows-RetrogamingOS (rEFInd)
 
 1) Vérifier si votre Windows est en mode UEFI ou BIOS :
 - Touches Win+R
-- Tapez "msinfo32" puis appuyez sur Entrée
+- Tapez ``msinfo32`` puis appuyez sur Entrée
 - sur la droite de l'écran Informations Système, recherchez le mode BIOS
 - si sa valeur est UEFI, passez à la section Configurez UEFI
 - si sa valeur est BIOS, vous devez convertir votre disque Windows de MBR à GPT
@@ -14,13 +14,13 @@ Paquet pour installer un multiboot Windows-RetrogamingOS (rEFInd)
 - Localisez le numéro du disque :
 	- Cliquez avec le bouton droit de la souris sur le bouton Windows
 	- Choisissez le Gestionnaire de disques
-	- Recherchez votre disque dur contenant Windows (C:) et notez le numéro du disque (noté plus tard <disknumber> qu'il faudra remplacer par la valeur notée ici).
+	- Recherchez votre disque dur contenant Windows (C:) et notez le numéro du disque (noté plus tard ``<disknumber>`` qu'il faudra remplacer par la valeur notée ici).
 - Convertir le disque MBR en GPT :
 	- Cliquez sur le bouton Windows
-	- Tapez "cmd" puis Entrée
+	- Tapez ``cmd`` puis Entrée
 	- Cliquez avec le bouton droit de la souris, exécutez en tant qu'administrateur
-	- tapez "mbr2gpt /validate /disk:<disknumber> /allowFullOS" puis Entrée
-	- si aucune erreur ne survient, tapez "mbr2gpt /convert /disk:<disknumber> /allowFullOS" puis Entrée
+	- tapez ``mbr2gpt /validate /disk:<disknumber> /allowFullOS`` puis Entrée
+	- si aucune erreur ne survient, tapez ``mbr2gpt /convert /disk:<disknumber> /allowFullOS`` puis Entrée
 
 3) Configurez l'UEFI : 
 - Assurez-vous que le mode BIOS est réglé sur UEFI
