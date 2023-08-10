@@ -1,7 +1,6 @@
 # rEFInd-Chriskt78
-Packaged & customized by Christ78
-
 Windows-RetrogamingOS multiboot installation package (rEFInd)
+Packaged & customized by Christ78
 
 1) Check whether your Windows is in UEFI or BIOS mode:
 - Win+R keys
